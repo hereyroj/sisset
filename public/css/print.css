@@ -1,0 +1,12 @@
+header, footer, nav, aside, .alert, .btn, body.footer {
+    display: none;
+}
+
+body {
+    background-image: none;
+}
+
+a:after {
+    content:" <" attr(href) ">";
+}
+
